@@ -1,0 +1,22 @@
+body, ul, ol, li, p, div, h1, h2, h3, h4, h5, h6, img, a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'simhei';
+}
+#content{
+  background: #fafafa;
+}
+
+//@mixin user($size) {
+//  $list: 1024px, 770px, 768px, 766px, 600px, 514px, 500px, 480px, 450px, 420px, 416px, 414px, 412px, 384px, 375px, 360px, 320px;
+//  @each $i in $list {
+//    @media screen and (max-width: #{$i}) {
+//      html {
+//        font-size: 100px * ( $i / $size);
+//      }
+//    }
+//  }
+//}
+//@include user(750px);

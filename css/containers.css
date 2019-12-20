@@ -1,0 +1,252 @@
+#content {
+  width: 100%;
+  background: #fafafa;
+  color: #555; }
+  #content .crumbs {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #222;
+    padding: 20px 0 0 34px;
+    box-sizing: border-box;
+    background: url(../img/home.png) no-repeat 7px 20px;
+    position: relative; }
+    #content .crumbs a {
+      color: #222; }
+  #content .noticeList {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box; }
+    #content .noticeList:after {
+      content: "";
+      display: block;
+      clear: both;
+      width: 100%;
+      height: 0; }
+    #content .noticeList .notice_bar {
+      width: 300px;
+      font-size: 18px;
+      background: #fff;
+      overflow: hidden;
+      color: #888;
+      float: left; }
+      #content .noticeList .notice_bar > ul {
+        display: block;
+        margin-bottom: 10px; }
+        #content .noticeList .notice_bar > ul .slider_title {
+          line-height: 60px;
+          font-size: 22px;
+          padding-left: 40px;
+          box-sizing: border-box;
+          cursor: default;
+          border-left: 6px solid transparent; }
+        #content .noticeList .notice_bar > ul > li {
+          line-height: 60px;
+          font-size: 18px;
+          padding-left: 40px;
+          box-sizing: border-box;
+          cursor: pointer;
+          border-left: 6px solid transparent; }
+          #content .noticeList .notice_bar > ul > li:hover {
+            border-left: 6px solid #57a3e7; }
+            #content .noticeList .notice_bar > ul > li:hover > a {
+              color: #3b3b3b; }
+          #content .noticeList .notice_bar > ul > li > a {
+            color: #888; }
+        #content .noticeList .notice_bar > ul > li.active {
+          border-left: 6px solid #57a3e7;
+          background: #f9f9f9; }
+    #content .noticeList .notice_con {
+      width: 840px;
+      padding-left: 20px;
+      padding-right: 20px;
+      box-sizing: border-box;
+      float: right;
+      background: #fff; }
+      #content .noticeList .notice_con .notice_con_title {
+        border-bottom: 1px solid #ededed;
+        font-weight: normal;
+        display: block; }
+        #content .noticeList .notice_con .notice_con_title:after {
+          content: ".";
+          display: block;
+          height: 0;
+          clear: both;
+          visibility: hidden; }
+        #content .noticeList .notice_con .notice_con_title > span {
+          float: left;
+          height: 57px;
+          line-height: 57px;
+          font-size: 20px;
+          color: #3b3b3b;
+          padding: 0 25px;
+          font-weight: normal;
+          border-bottom: 1px solid #57a3e7; }
+      #content .noticeList .notice_con .notice_tip {
+        margin: 20px 20px 20px 20px; }
+        #content .noticeList .notice_con .notice_tip:after {
+          content: "";
+          display: block;
+          clear: both;
+          width: 100%;
+          height: 0; }
+        #content .noticeList .notice_con .notice_tip > span {
+          padding-bottom: 20px;
+          display: block;
+          border-bottom: 1px dashed #ededed; }
+        #content .noticeList .notice_con .notice_tip .teacher_List {
+          width: 150px;
+          height: 200px;
+          border: 1px solid #ccc;
+          text-align: center;
+          box-sizing: border-box;
+          position: relative;
+          display: block;
+          float: left;
+          margin-right: 53px;
+          margin-bottom: 20px;
+          cursor: pointer; }
+          #content .noticeList .notice_con .notice_tip .teacher_List .teacher_info {
+            width: 100px;
+            height: auto;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -55%); }
+            #content .noticeList .notice_con .notice_tip .teacher_List .teacher_info .teacherPhoto {
+              width: 80px;
+              height: 80px;
+              margin: 15px auto;
+              background: slategray;
+              overflow: hidden;
+              border-radius: 50%; }
+              #content .noticeList .notice_con .notice_tip .teacher_List .teacher_info .teacherPhoto > img {
+                width: 100%;
+                height: auto; }
+            #content .noticeList .notice_con .notice_tip .teacher_List .teacher_info .teacherName {
+              color: #6e6e6e;
+              font-size: 14px; }
+        #content .noticeList .notice_con .notice_tip .teacher_List:nth-child(4n) {
+          margin-right: 0; }
+        #content .noticeList .notice_con .notice_tip > a {
+          display: block;
+          line-height: 50px;
+          height: 49px;
+          border-bottom: 1px dashed #dfdfdf;
+          padding-left: 10px; }
+          #content .noticeList .notice_con .notice_tip > a:hover {
+            background: #fafafa; }
+            #content .noticeList .notice_con .notice_tip > a:hover .title {
+              font-weight: bold; }
+          #content .noticeList .notice_con .notice_tip > a > span {
+            height: 50px;
+            display: inline-block;
+            float: left;
+            color: #555; }
+          #content .noticeList .notice_con .notice_tip > a .title {
+            width: 512px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis; }
+            #content .noticeList .notice_con .notice_tip > a .title > .file {
+              padding: 3px 0 3px 23px;
+              background: url(../img/file_small.jpg) no-repeat left center; }
+            #content .noticeList .notice_con .notice_tip > a .title > .doc {
+              padding: 3px 0 3px 23px;
+              background: url(../img/doc_small.jpg) no-repeat left center; }
+          #content .noticeList .notice_con .notice_tip > a .user {
+            width: 75px; }
+          #content .noticeList .notice_con .notice_tip > a .date {
+            width: 105px; }
+      #content .noticeList .notice_con #pages {
+        padding: 10px 0;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center; }
+        #content .noticeList .notice_con #pages #Pagination {
+          float: left;
+          overflow: hidden; }
+          #content .noticeList .notice_con #pages #Pagination .pagination {
+            font-family: \u5b8b\u4f53, Arial; }
+            #content .noticeList .notice_con #pages #Pagination .pagination:after {
+              display: block;
+              clear: both;
+              content: '';
+              width: 100%;
+              height: 0; }
+            #content .noticeList .notice_con #pages #Pagination .pagination a, #content .noticeList .notice_con #pages #Pagination .pagination span {
+              float: left;
+              width: 21px;
+              height: 21px;
+              padding: 0;
+              border: 1px solid #e6e6e6;
+              background: #f6f6f6;
+              color: #666666;
+              cursor: pointer;
+              text-align: center;
+              line-height: 21px;
+              margin-right: 5px; }
+            #content .noticeList .notice_con #pages #Pagination .pagination .prev {
+              width: auto;
+              height: auto;
+              box-sizing: border-box;
+              padding: 0px 7px;
+              font-size: 12px; }
+            #content .noticeList .notice_con #pages #Pagination .pagination .next {
+              width: auto;
+              height: auto;
+              box-sizing: border-box;
+              padding: 0px 7px;
+              font-size: 12px; }
+            #content .noticeList .notice_con #pages #Pagination .pagination .pagination-break {
+              border: none;
+              background: none;
+              cursor: default; }
+        #content .noticeList .notice_con #pages .searchPage {
+          float: left;
+          line-height: 21px;
+          margin-left: 10px; }
+          #content .noticeList .notice_con #pages .searchPage .page-sum {
+            color: #999999;
+            font-family: \u5b8b\u4f53, Arial;
+            font-size: 14px;
+            display: inline-block;
+            height: 21px;
+            line-height: 21px; }
+          #content .noticeList .notice_con #pages .searchPage .page-go {
+            display: inline-block;
+            height: 21px;
+            line-height: 21px;
+            color: #999999;
+            font-family: \u5b8b\u4f53, Arial;
+            font-size: 14px; }
+            #content .noticeList .notice_con #pages .searchPage .page-go input {
+              width: 21px;
+              height: 20px;
+              margin: 0 5px;
+              padding-left: 5px;
+              border: 1px solid #e4e4e4;
+              box-sizing: border-box;
+              outline: none; }
+          #content .noticeList .notice_con #pages .searchPage .page-btn {
+            margin: 9px 0 5px 5px;
+            padding: 1px 5px;
+            background: #3b3b3b;
+            border-radius: 2px;
+            color: #ffffff;
+            font-family: Arial, 'Microsoft YaHei';
+            font-size: 14px;
+            text-decoration: none; }
+      #content .noticeList .notice_con #pages #Pagination .pagination a:hover {
+        background: #3b3b3b;
+        color: #fff; }
+      #content .noticeList .notice_con #pages #Pagination .pagination a.current {
+        background: #3b3b3b;
+        color: #fff; }
+
+/*# sourceMappingURL=containers.css.map */

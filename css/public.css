@@ -1,0 +1,11 @@
+body, ul, ol, li, p, div, h1, h2, h3, h4, h5, h6, img, a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'simhei'; }
+
+#content {
+  background: #fafafa; }
+
+/*# sourceMappingURL=public.css.map */

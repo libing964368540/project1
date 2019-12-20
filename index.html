@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>佘运祥名师乡村工作室</title>
+</head>
+<body>
+<div id="header" v-html="header"></div>
+<div id="content">
+    <div class="banner">
+        <div class="bannerList"></div>
+        <div class="tip"></div>
+        <div class="btnR"><a href="javascript:;" id="next-img"></a></div>
+        <div class="btnL"><a href="javascript:;" id="prev-img"></a></div>
+    </div>
+    <div class="model">
+        <div class="mOne">
+            <div class="mLeft">
+                <h3><span>工作室主持人</span> <span><a href="./about.html"></a></span></h3>
+                <div class="userInfo">
+                    <div class="photo">
+                        <img src="./img/man.jpg" alt="">
+                    </div>
+                    <div class="userName">
+                        佘运祥
+                    </div>
+                    <br>
+                    <div>杭州市电子信息职业学校</div>
+                    <br>
+                    <div>计算机网络技术</div>
+                </div>
+            </div>
+            <div class="mRight">
+                <h3><span></span> <span data-id="2"></span></h3>
+                <div class="mRightList">
+
+                </div>
+            </div>
+        </div>
+        <div class="mList">
+            <div class="listBox"></div>
+        </div>
+        <div class="videoList">
+            <h3><span>视频资料</span><span><a href="./teacher_book.html?data-id=13&parentId=1&index=0"></a></span></h3>
+            <div class="listBox"></div>
+        </div>
+    </div>
+</div>
+<div id="footer" v-html="footer"></div>
+<script src="./js/jquery-2.0.0.min.js"></script>
+<script src="./js/vue.js"></script>
+<script src="./js/vue-resource.js"></script>
+<script src="./js/config.min.js"></script>
+<script src="./js/opcatyBanner.js"></script>
+<script src="./js/index.min.js"></script>
+<script>
+    $('body').on('click', '#content .model .mOne .userInfo', function () {
+        top.window.location = 'about.html'
+    });
+    if (sessionStorage.getItem('key') == 0) {} else {
+        setTimeout(function () {
+            sessionStorage.setItem("key", "0");
+            window.location.reload()
+        }, 6000)
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+.banner {
+  width: 100%;
+  min-height: 260px;
+  background: #fff;
+  position: relative;
+  margin-bottom: 1px; }
+  .banner .tip {
+    width: 50%;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    z-index: 2;
+    justify-content: center; }
+    .banner .tip > a {
+      width: 13px;
+      height: 13px;
+      display: block;
+      margin-right: 20px;
+      border-radius: 50%;
+      background: #4c4c4c; }
+    .banner .tip > a.active {
+      background: #fff; }
+    .banner .tip > span:last-child {
+      margin-right: 0px; }
+  .banner .bannerList {
+    width: 100%;
+    height: auto; }
+    .banner .bannerList > a {
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0;
+      transition: all 0.3s ease;
+      z-index: -1; }
+      .banner .bannerList > a > .notice {
+        width: 55%;
+        height: 75%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index: 2;
+        text-align: center;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        letter-spacing: 0.2em; }
+        .banner .bannerList > a > .notice .now {
+          display: block;
+          font-size: 26px;
+          font-weight: bold; }
+        .banner .bannerList > a > .notice .record {
+          display: block;
+          font-size: 34px;
+          font-weight: bold; }
+        .banner .bannerList > a > .notice .timeDate {
+          display: block;
+          font-size: 24px;
+          letter-spacing: 0; }
+      .banner .bannerList > a .mask {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.3);
+        position: absolute;
+        left: 0;
+        top: 0; }
+      .banner .bannerList > a > img {
+        width: 100%;
+        display: block;
+        height: auto; }
+    .banner .bannerList > a.active {
+      z-index: 1;
+      opacity: 1; }
+  .banner .btnL {
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 2;
+    opacity: 0;
+    transition: all 0.3s ease; }
+    .banner .btnL:hover {
+      opacity: 1; }
+    .banner .btnL > a {
+      width: 80px;
+      height: 80px;
+      background: url("../img/switch-left.png") no-repeat;
+      background-size: 100%;
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      left: 50px;
+      bottom: 0;
+      margin: auto; }
+  .banner .btnR {
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0;
+    z-index: 2;
+    transition: all 0.3s ease; }
+    .banner .btnR:hover {
+      opacity: 1; }
+    .banner .btnR > a {
+      width: 80px;
+      height: 80px;
+      background: url("../img/switch-right.png") no-repeat;
+      background-size: 100%;
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      right: 50px;
+      bottom: 0;
+      margin: auto; }
+
+/*# sourceMappingURL=banner.css.map */

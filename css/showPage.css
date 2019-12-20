@@ -1,0 +1,405 @@
+#content {
+  width: 100%;
+  background: #fafafa; }
+  #content .crumbs {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #222;
+    padding: 20px 0 0 34px;
+    box-sizing: border-box;
+    background: url(../img/home.png) no-repeat 7px 20px;
+    position: relative; }
+    #content .crumbs a {
+      color: #222; }
+  #content .notice_list {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding-top: 20px; }
+    #content .notice_list:after {
+      content: "";
+      display: block;
+      clear: both;
+      width: 100%;
+      height: 0; }
+    #content .notice_list .richText {
+      background-color: #FFF;
+      box-sizing: border-box;
+      width: 885px;
+      float: left; }
+      #content .notice_list .richText .text {
+        width: 100%;
+        min-height: 100px;
+        padding: 80px;
+        box-sizing: border-box; }
+        #content .notice_list .richText .text > video {
+          width: 500px;
+          height: 328px;
+          margin: 0 auto;
+          display: block; }
+      #content .notice_list .richText .comment {
+        width: 100%; }
+        #content .notice_list .richText .comment .comWrite {
+          padding: 10px 20px 0 20px;
+          font-size: 14px;
+          box-sizing: border-box; }
+          #content .notice_list .richText .comment .comWrite .tea_subtitle {
+            padding-left: 0;
+            font-size: 20px;
+            color: #000;
+            border-bottom: 1px solid #dedede;
+            padding-bottom: 10px;
+            line-height: 30px;
+            margin-bottom: 10px; }
+          #content .notice_list .richText .comment .comWrite .tea_subCon {
+            margin-bottom: 10px;
+            margin-top: 10px;
+            position: relative; }
+            #content .notice_list .richText .comment .comWrite .tea_subCon .user {
+              width: 72px;
+              height: 72px;
+              position: absolute; }
+              #content .notice_list .richText .comment .comWrite .tea_subCon .user > img {
+                width: 100%;
+                height: auto; }
+            #content .notice_list .richText .comment .comWrite .tea_subCon .area {
+              width: 100%;
+              padding: 0 0 20px 100px;
+              box-sizing: border-box; }
+              #content .notice_list .richText .comment .comWrite .tea_subCon .area textarea {
+                width: 100%;
+                min-height: 100px;
+                outline: none;
+                resize: none;
+                box-sizing: border-box;
+                padding: 8px 5px;
+                border-color: #e3e3e3;
+                overflow: auto;
+                font-size: 14px; }
+              #content .notice_list .richText .comment .comWrite .tea_subCon .area textarea::-webkit-input-placeholder {
+                color: #3b3b3b;
+                font-size: 14px; }
+              #content .notice_list .richText .comment .comWrite .tea_subCon .area .tip {
+                height: 50px;
+                line-height: 50px;
+                text-align: right;
+                color: #3b3b3b; }
+                #content .notice_list .richText .comment .comWrite .tea_subCon .area .tip .num {
+                  font-size: 24px; }
+                #content .notice_list .richText .comment .comWrite .tea_subCon .area .tip button {
+                  font-size: 12px;
+                  margin-top: 2px;
+                  margin-right: 2px;
+                  color: white;
+                  outline: none;
+                  border-radius: 3px;
+                  background: #3b3b3b;
+                  height: 33px;
+                  line-height: 30px;
+                  overflow: visible;
+                  font-weight: bold;
+                  padding: 0 20px;
+                  cursor: pointer;
+                  border: 1px solid #3b3b3b; }
+                  #content .notice_list .richText .comment .comWrite .tea_subCon .area .tip button:hover {
+                    background: rgba(0, 0, 0, 0.6); }
+        #content .notice_list .richText .comment .comShow {
+          padding: 10px 20px 0 20px;
+          font-size: 14px;
+          box-sizing: border-box; }
+          #content .notice_list .richText .comment .comShow .tea_subtitle {
+            padding-left: 0;
+            font-size: 20px;
+            color: #000;
+            border-bottom: 1px solid #dedede;
+            padding-bottom: 10px;
+            line-height: 30px; }
+          #content .notice_list .richText .comment .comShow .tea_con {
+            margin-bottom: 10px; }
+            #content .notice_list .richText .comment .comShow .tea_con .comList {
+              width: 100%;
+              height: auto; }
+              #content .notice_list .richText .comment .comShow .tea_con .comList > span {
+                display: block;
+                line-height: 46px;
+                font-size: 18px;
+                text-align: center; }
+              #content .notice_list .richText .comment .comShow .tea_con .comList .cl {
+                border-bottom: 1px dashed #ededed;
+                height: auto;
+                padding: 10px 10px;
+                margin-bottom: 15px;
+                display: block; }
+                #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-one {
+                  height: auto;
+                  overflow: hidden;
+                  position: relative;
+                  padding-bottom: 10px; }
+                  #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-one .reply {
+                    padding-top: 10px;
+                    padding-left: 60px;
+                    box-sizing: border-box; }
+                    #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-one .reply textarea {
+                      width: 100%;
+                      min-height: 100px;
+                      outline: none;
+                      resize: none;
+                      box-sizing: border-box;
+                      padding: 8px 5px;
+                      border-color: #e3e3e3;
+                      overflow: auto;
+                      font-size: 14px; }
+                    #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-one .reply .tip {
+                      text-align: right; }
+                      #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-one .reply .tip > button {
+                        font-size: 12px;
+                        margin-top: 2px;
+                        margin-right: 2px;
+                        color: white;
+                        outline: none;
+                        border-radius: 3px;
+                        background: #3b3b3b;
+                        height: 33px;
+                        line-height: 30px;
+                        overflow: visible;
+                        font-weight: bold;
+                        padding: 0 20px;
+                        cursor: pointer;
+                        border: 1px solid #3b3b3b; }
+                        #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-one .reply .tip > button:hover {
+                          background: rgba(0, 0, 0, 0.6); }
+                  #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-one .user {
+                    width: 50px;
+                    height: 50px;
+                    position: absolute; }
+                    #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-one .user > img {
+                      width: 50px;
+                      height: auto;
+                      display: block; }
+                  #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-one .clOne-con {
+                    width: 100%;
+                    min-height: 50px;
+                    padding-left: 60px;
+                    box-sizing: border-box;
+                    color: #3b3b3b; }
+                    #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-one .clOne-con .userName {
+                      color: #757575; }
+                    #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-one .clOne-con .userCon {
+                      line-height: 25px; }
+                    #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-one .clOne-con .comTime {
+                      line-height: 25px;
+                      display: flex;
+                      flex-direction: row;
+                      flex-wrap: nowrap;
+                      justify-content: space-between; }
+                      #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-one .clOne-con .comTime .btn {
+                        cursor: pointer; }
+                        #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-one .clOne-con .comTime .btn:hover {
+                          text-decoration: underline;
+                          color: #000; }
+                #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-two {
+                  padding-top: 10px;
+                  padding-left: 60px;
+                  box-sizing: border-box;
+                  width: 100%;
+                  border-top: 1px dashed #ccc;
+                  min-height: 50px;
+                  color: #3b3b3b;
+                  margin-bottom: 10px; }
+                  #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-two .reply {
+                    padding-top: 10px;
+                    padding-left: 60px;
+                    box-sizing: border-box; }
+                    #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-two .reply textarea {
+                      width: 100%;
+                      min-height: 100px;
+                      outline: none;
+                      resize: none;
+                      box-sizing: border-box;
+                      padding: 8px 5px;
+                      border-color: #e3e3e3;
+                      overflow: auto;
+                      font-size: 14px; }
+                    #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-two .reply .tip {
+                      text-align: right; }
+                      #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-two .reply .tip > button {
+                        font-size: 12px;
+                        margin-top: 2px;
+                        margin-right: 2px;
+                        color: white;
+                        outline: none;
+                        border-radius: 3px;
+                        background: #3b3b3b;
+                        height: 33px;
+                        line-height: 30px;
+                        overflow: visible;
+                        font-weight: bold;
+                        padding: 0 20px;
+                        cursor: pointer;
+                        border: 1px solid #3b3b3b; }
+                        #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-two .reply .tip > button:hover {
+                          background: rgba(0, 0, 0, 0.6); }
+                  #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-two .user {
+                    width: 50px;
+                    height: 50px;
+                    position: absolute; }
+                    #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-two .user > img {
+                      width: 50px;
+                      height: auto;
+                      display: block; }
+                  #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-two .clOne-con {
+                    width: 100%;
+                    min-height: 50px;
+                    padding-left: 60px;
+                    box-sizing: border-box;
+                    color: #3b3b3b; }
+                    #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-two .clOne-con .a, #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-two .clOne-con .b {
+                      color: #757575; }
+                    #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-two .clOne-con .userCon {
+                      line-height: 25px; }
+                    #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-two .clOne-con .comTime {
+                      line-height: 25px;
+                      display: flex;
+                      flex-direction: row;
+                      flex-wrap: nowrap;
+                      justify-content: space-between; }
+                      #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-two .clOne-con .comTime .btn {
+                        cursor: pointer; }
+                        #content .notice_list .richText .comment .comShow .tea_con .comList .cl .cl-two .clOne-con .comTime .btn:hover {
+                          text-decoration: underline;
+                          color: #000; }
+        #content .notice_list .richText .comment #pages {
+          padding: 10px 0;
+          margin-bottom: 15px;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          justify-content: center; }
+          #content .notice_list .richText .comment #pages #Pagination {
+            float: left;
+            overflow: hidden; }
+            #content .notice_list .richText .comment #pages #Pagination .pagination {
+              font-family: \u5b8b\u4f53, Arial; }
+              #content .notice_list .richText .comment #pages #Pagination .pagination:after {
+                display: block;
+                clear: both;
+                content: '';
+                width: 100%;
+                height: 0; }
+              #content .notice_list .richText .comment #pages #Pagination .pagination a, #content .notice_list .richText .comment #pages #Pagination .pagination span {
+                float: left;
+                width: 21px;
+                height: 21px;
+                padding: 0;
+                border: 1px solid #e6e6e6;
+                background: #f6f6f6;
+                color: #666666;
+                cursor: pointer;
+                text-align: center;
+                line-height: 21px;
+                margin-right: 5px; }
+              #content .notice_list .richText .comment #pages #Pagination .pagination .prev {
+                width: auto;
+                height: auto;
+                box-sizing: border-box;
+                padding: 0px 7px;
+                font-size: 12px; }
+              #content .notice_list .richText .comment #pages #Pagination .pagination .next {
+                width: auto;
+                height: auto;
+                box-sizing: border-box;
+                padding: 0px 7px;
+                font-size: 12px; }
+              #content .notice_list .richText .comment #pages #Pagination .pagination .pagination-break {
+                border: none;
+                background: none;
+                cursor: default; }
+          #content .notice_list .richText .comment #pages .searchPage {
+            float: left;
+            line-height: 21px;
+            margin-left: 10px; }
+            #content .notice_list .richText .comment #pages .searchPage .page-sum {
+              color: #999999;
+              font-family: \u5b8b\u4f53, Arial;
+              font-size: 14px;
+              display: inline-block;
+              height: 21px;
+              line-height: 21px; }
+            #content .notice_list .richText .comment #pages .searchPage .page-go {
+              display: inline-block;
+              height: 21px;
+              line-height: 21px;
+              color: #999999;
+              font-family: \u5b8b\u4f53, Arial;
+              font-size: 14px; }
+              #content .notice_list .richText .comment #pages .searchPage .page-go input {
+                width: 21px;
+                height: 20px;
+                margin: 0 5px;
+                padding-left: 5px;
+                border: 1px solid #e4e4e4;
+                box-sizing: border-box;
+                outline: none; }
+            #content .notice_list .richText .comment #pages .searchPage .page-btn {
+              margin: 9px 0 5px 5px;
+              padding: 1px 5px;
+              background: #3b3b3b;
+              border-radius: 2px;
+              color: #ffffff;
+              font-family: Arial, 'Microsoft YaHei';
+              font-size: 14px;
+              text-decoration: none; }
+        #content .notice_list .richText .comment #pages #Pagination .pagination a:hover {
+          background: #3b3b3b;
+          color: #fff; }
+        #content .notice_list .richText .comment #pages #Pagination .pagination a.current {
+          background: #3b3b3b;
+          color: #fff; }
+    #content .notice_list .sidebarR {
+      min-height: 200px;
+      background-color: #FFF;
+      border: 1px solid #ededed;
+      float: right; }
+      #content .notice_list .sidebarR .model {
+        padding: 0 20px;
+        width: 260px;
+        background: #fff;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        /* Firefox */
+        -webkit-box-sizing: border-box;
+        /* Safari */ }
+        #content .notice_list .sidebarR .model > h3 {
+          line-height: 36px;
+          border-bottom: 1px solid #ededed;
+          font-weight: normal;
+          display: block;
+          color: #3b3b3b; }
+          #content .notice_list .sidebarR .model > h3:after {
+            content: "";
+            width: 40px;
+            clear: both;
+            display: block;
+            border-bottom: 1px solid #ccc; }
+        #content .notice_list .sidebarR .model > ul {
+          padding: 12px 0 20px 0;
+          box-sizing: border-box; }
+          #content .notice_list .sidebarR .model > ul > li {
+            line-height: 36px;
+            background: salmon;
+            padding-left: 23px;
+            cursor: pointer;
+            background: url(../img/spot.png) no-repeat 0 -27px; }
+            #content .notice_list .sidebarR .model > ul > li a {
+              color: #3b3b3b;
+              font-size: 14px;
+              outline: none; }
+            #content .notice_list .sidebarR .model > ul > li:hover {
+              background-position: 0 -27px; }
+              #content .notice_list .sidebarR .model > ul > li:hover a {
+                text-decoration: underline;
+                color: #000; }
+
+/*# sourceMappingURL=showPage.css.map */

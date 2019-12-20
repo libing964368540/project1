@@ -1,0 +1,319 @@
+#content {
+  width: 100%;
+  background: #fafafa;
+  color: #555;
+  .crumbs {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #222;
+    padding: 20px 0 0 34px;
+    box-sizing: border-box;
+    background: url(../img/home.png) no-repeat 7px 20px;
+    position: relative;
+    a {
+      color: #222;
+    }
+  }
+  .noticeList {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    &:after {
+      content: "";
+      display: block;
+      clear: both;
+      width: 100%;
+      height: 0;
+    }
+    .notice_bar {
+      width: 300px;
+      font-size: 18px;
+      background: #fff;
+      overflow: hidden;
+      color: #888;
+      float: left;
+      > ul {
+        display: block;
+        margin-bottom: 10px;
+        .slider_title {
+          line-height: 60px;
+          font-size: 22px;
+          padding-left: 40px;
+          box-sizing: border-box;
+          cursor: default;
+          border-left: 6px solid transparent;
+        }
+        > li {
+          line-height: 60px;
+          font-size: 18px;
+          padding-left: 40px;
+          box-sizing: border-box;
+          cursor: pointer;
+          border-left: 6px solid transparent;
+          &:hover {
+            border-left: 6px solid #57a3e7;
+            > a {
+              color: #3b3b3b;
+            }
+          }
+          > a {
+            color: #888;
+          }
+        }
+        > li.active {
+          border-left: 6px solid #57a3e7;
+          background: #f9f9f9;
+        }
+      }
+    }
+    .notice_con {
+      width: 840px;
+      padding-left: 20px;
+      padding-right: 20px;
+      box-sizing: border-box;
+      float: right;
+      background: #fff;
+      .notice_con_title {
+        border-bottom: 1px solid #ededed;
+        font-weight: normal;
+        display: block;
+        &:after {
+          content: ".";
+          display: block;
+          height: 0;
+          clear: both;
+          visibility: hidden;
+        }
+        > span {
+          float: left;
+          height: 57px;
+          line-height: 57px;
+          font-size: 20px;
+          color: #3b3b3b;
+          padding: 0 25px;
+          font-weight: normal;
+          border-bottom: 1px solid #57a3e7;
+        }
+      }
+      .notice_tip {
+        margin: 20px 20px 20px 20px;
+        &:after {
+          content: "";
+          display: block;
+          clear: both;
+          width: 100%;
+          height: 0;
+        }
+        > span {
+          padding-bottom: 20px;
+          display: block;
+          border-bottom: 1px dashed #ededed;
+        }
+        //> .ved {
+        //  width: 550px;
+        //  height: 380px;
+        //  margin: 30px auto;
+        //  .ved-title {
+        //    height: 30px;
+        //    line-height: 30px;
+        //    text-align: center;
+        //  }
+        //  .vedBox{
+        //    width: 420px;
+        //    height: 300px;
+        //    margin: 15px auto;
+        //    background: #fafafa;
+        //  }
+        //}
+        .teacher_List {
+          width: 150px;
+          height: 200px;
+          border: 1px solid #ccc;
+          text-align: center;
+          box-sizing: border-box;
+          position: relative;
+          display: block;
+          float: left;
+          margin-right: 53px;
+          margin-bottom: 20px;
+          cursor: pointer;
+          .teacher_info {
+            width: 100px;
+            height: auto;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -55%);
+            .teacherPhoto {
+              width: 80px;
+              height: 80px;
+              margin: 15px auto;
+              background: slategray;
+              overflow: hidden;
+              border-radius: 50%;
+              > img {
+                width: 100%;
+                height: auto;
+              }
+            }
+            .teacherName {
+              color: #6e6e6e;
+              font-size: 14px;
+            }
+          }
+        }
+        .teacher_List:nth-child(4n) {
+          margin-right: 0;
+        }
+        > a {
+          display: block;
+          line-height: 50px;
+          height: 49px;
+          border-bottom: 1px dashed #dfdfdf;
+          padding-left: 10px;
+          &:hover {
+            background: #fafafa;
+            .title {
+              font-weight: bold;
+            }
+          }
+          > span {
+            height: 50px;
+            display: inline-block;
+            float: left; 
+            color: #555;
+          }
+          .title {
+            width: 512px;
+            white-space: nowrap;
+            overflow:hidden;
+            text-overflow: ellipsis;
+            > .file {
+              padding: 3px 0 3px 23px;
+              background: url(../img/file_small.jpg) no-repeat left center;
+            }
+            > .doc {
+              padding: 3px 0 3px 23px;
+              background: url(../img/doc_small.jpg) no-repeat left center;
+            }
+          }
+          .user {
+            width: 75px;
+          }
+          .date {
+            width: 105px;
+          }
+        }
+      }
+
+      #pages {
+        padding: 10px 0;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        #Pagination {
+          float: left;
+          overflow: hidden;
+          .pagination {
+            font-family: \u5b8b\u4f53, Arial;
+            &:after {
+              display: block;
+              clear: both;
+              content: '';
+              width: 100%;
+              height: 0;
+            }
+            a, span {
+              float: left;
+              width: 21px;
+              height: 21px;
+              padding: 0;
+              border: 1px solid #e6e6e6;
+              background: #f6f6f6;
+              color: #666666;
+              cursor: pointer;
+              text-align: center;
+              line-height: 21px;
+              margin-right: 5px;
+            }
+            .prev {
+              width: auto;
+              height: auto;
+              box-sizing: border-box;
+              padding: 0px 7px;
+              font-size: 12px;
+            }
+            .next {
+              width: auto;
+              height: auto;
+              box-sizing: border-box;
+              padding: 0px 7px;
+              font-size: 12px;
+            }
+            .pagination-break {
+              border: none;
+              background: none;
+              cursor: default;
+            }
+          }
+        }
+        .searchPage {
+          float: left;
+          line-height: 21px;
+          margin-left: 10px;
+          .page-sum {
+            color: #999999;
+            font-family: \u5b8b\u4f53, Arial;
+            font-size: 14px;
+            display: inline-block;
+            height: 21px;
+            line-height: 21px;
+          }
+          .page-go {
+            display: inline-block;
+            height: 21px;
+            line-height: 21px;
+            color: #999999;
+            font-family: \u5b8b\u4f53, Arial;
+            font-size: 14px;
+            input {
+              width: 21px;
+              height: 20px;
+              margin: 0 5px;
+              padding-left: 5px;
+              border: 1px solid #e4e4e4;
+              box-sizing: border-box;
+              outline: none;
+            }
+          }
+          .page-btn {
+            margin: 9px 0 5px 5px;
+            padding: 1px 5px;
+            background: #3b3b3b;
+            border-radius: 2px;
+            color: #ffffff;
+            font-family: Arial, 'Microsoft YaHei';
+            font-size: 14px;
+            text-decoration: none;
+          }
+        }
+      }
+      #pages #Pagination .pagination a:hover {
+        background: #3b3b3b;
+        color: #fff;
+      }
+      #pages #Pagination .pagination a.current {
+        background: #3b3b3b;
+        color: #fff;
+      }
+    }
+  }
+}
+
+
